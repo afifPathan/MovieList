@@ -1,0 +1,26 @@
+name: webclues_practical
+description: Web Clues Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.24.0
+  dio: ^3.0.9
+  cached_network_image: ^2.2.0+1
+  smooth_star_rating: 1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
